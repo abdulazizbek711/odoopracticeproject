@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <menuitem id="menu_university_root"
+              name="University"
+              sequence="10"/>
+    <menuitem id="menu_university_operations"
+              name="Operations"
+              parent="menu_university_root"
+              sequence="10"/>
+    <menuitem id="menu_students"
+              name="Student"
+              parent="menu_university_operations"
+              sequence="20"/>
+</odoo>
